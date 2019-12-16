@@ -1,0 +1,7 @@
+# Stow
+// Link
+stow -v -t ~ ~/dotfiles
+// Unlink
+stow -D -v -t ~ ~/dotfiles
+// Relink
+stow -v -R -t ~ ~/dotfiles
