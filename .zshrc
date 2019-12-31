@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/anton/.oh-my-zsh"
+export ZSH="/Users/anton/.oh-my-zsh"
 
 source ~/dotfiles/aliases.zsh
 
@@ -80,10 +80,9 @@ plugins=(
   history
   sudo
   yarn
-  autoenv
+  zsh-syntax-highlighting
   docker
   celery
-  tmux
   vi-mode
 )
 
